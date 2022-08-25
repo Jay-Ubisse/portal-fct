@@ -1,7 +1,10 @@
+/* Tipografia */
 @font-face {
     font-family: inter;
     src: url(../fonts/Inter-Regular.ttf);
 }
+
+/* Estilos globais da pagina*/
 * {
     margin: 0;
     padding: 0;
@@ -22,17 +25,32 @@ header > section > div {
   padding: 0 15px;
   border-radius: 15px;
   margin-top: 15px;
+  position: relative;
 }
-header > section > div input {
+header > section > div > input {
     background-color: #FF8800;
     outline: none;
     border-style: none;
+    color: #FFFFFF;
+    position: relative;
+    top: -7px;
+    left: 5px;
+}
+::placeholder { /*para Chrome, Firefox, Opera e Safari*/
+    color: #FFFFFF;
+    opacity: 1; /*Para Firefox*/
+}
+:-ms-input-placeholder { /*Para Internet Explorer*/
+    color: #FFFFFF;
+}
+::-ms-input-placeholder { /*Para Microsoft Edge*/
     color: #FFFFFF;
 }
 header > section > div > img {
     width: 1.5rem;
     height: 1.5rem;
     margin-top: 3px;
+    cursor: pointer;
   }
 header > section > h3 {
     margin: 15px 15px 0 0;
@@ -49,7 +67,7 @@ header > nav > ul {
     margin-top: 10px;
     padding: 10px 20px;
     color: #FFFFFF;
-    font-size: x-large;
+    font-size: larger;
     background-color: #FF8800;
     font-weight: 500;
     display: flex;
@@ -60,8 +78,15 @@ header > nav > ul {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+header > nav > ul > li {
+    padding: 0 10px;
+    cursor: pointer;
+}
+header > nav > ul > li:hover {
+    color: #FFB703;
+}
 header > nav > ul > li + li {
     border-left-style: solid;
-    padding-left: 10px;
     border-width: thin;
+    border-color: #FFFFFF;
 }

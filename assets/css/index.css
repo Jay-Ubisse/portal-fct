@@ -1,0 +1,84 @@
+/* O container do slideshow */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Ocultar outras imagens por padrao */
+.hide {
+    display: none;
+}
+
+/* Butoes de proximo e anterior */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Posicionar o botao "proximo" a direita */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Quando passar o mouser pelos botoes "proximo e anterir" mudar o fundo para branco com alguma opacidade*/
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+}
+
+/* Os numeros (1/2 etc) */
+.numbertext {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Os pontos/bullets/indicadores */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* animacao fade*/
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
