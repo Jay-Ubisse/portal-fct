@@ -74,7 +74,7 @@ header > nav > ul {
     list-style-type: none;
     gap: 10px;
     justify-content: right;
-    width: 70%;
+    width: 75%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }

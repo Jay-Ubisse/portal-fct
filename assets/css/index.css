@@ -4,13 +4,15 @@
     position: relative;
     margin-top: 20px;
 }
-
+.slideshow-container img {
+    width: 100%;
+}
 /* Ocultar outras imagens por padrao */
 .hide {
     display: none;
 }
 
-/* Butoes de proximo e anterior */
+/* Botoes de proximo e anterior */
 .prev,
 .next {
     cursor: pointer;
@@ -81,4 +83,97 @@
     to {
         opacity: 1
     }
+}
+/*seccao das noticias*/
+#news {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.4);
+    min-height: 250px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-top-right-radius: 20px;
+    float: left;
+}
+/*seccao dos eventos*/
+aside {
+    width: 23%;
+    background-color: #FF8800;
+    min-height: 250px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    float: right;
+}
+/*seccao das projectos*/
+#explore {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    min-height: 250px;
+    clear: both;
+    position: relative;
+}
+#explore > #scroll {
+    background-color: rgba(15, 76, 92, 0.7);
+    height: 100%;
+    width: 120px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#explore > #scroll > a {
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+/*Nomes das seccoes*/
+.section-name {
+    color: #FFFFFF;
+    margin: 10px;
+    font-size: large;
+}
+.show-all {
+    font-size: small;
+    font-weight: 400;
+    position: relative;
+    top: -4px;
+}
+/*Links "mostrar todos"*/
+.show-all > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.show-all > a:hover {
+    color: #0F4C5C;
+}
+.show-all > a:visited {
+    color: #FFFFFF;
+}
+.show-all > a:active {
+    color: #FFFFFF;
+}
+.box-container {
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:first-child {
+    margin-left: 20px;
+}
+.box-info {
+    color: #0F4C5C;
+    width: fit-content;
+
 }
