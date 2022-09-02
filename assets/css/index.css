@@ -64,7 +64,6 @@
     transition: background-color 0.6s ease;
 }
 
-.active,
 .dot:hover {
     background-color: #717171;
 }
@@ -93,12 +92,13 @@
     padding-bottom: 20px;
     border-top-right-radius: 20px;
     float: left;
+    margin-bottom: 10px;
 }
 /*seccao dos eventos*/
 aside {
     width: 23%;
     background-color: #FF8800;
-    min-height: 250px;
+    min-height: 500px;
     margin-top: 15px;
     padding-bottom: 20px;
     border-top-left-radius: 20px;
@@ -106,16 +106,16 @@ aside {
 }
 /*seccao das projectos*/
 #explore {
-    width: 100%;
+    width: 75%;
     background-color: rgba(255, 255, 255, 0.7);
     min-height: 250px;
-    clear: both;
     position: relative;
+    clear: left;
 }
 #explore > #scroll {
     background-color: rgba(15, 76, 92, 0.7);
     height: 100%;
-    width: 120px;
+    width: 100px;
     position: absolute;
     right: 0;
     top: 0;
@@ -174,6 +174,4 @@ aside {
 }
 .box-info {
     color: #0F4C5C;
-    width: fit-content;
-
 }
