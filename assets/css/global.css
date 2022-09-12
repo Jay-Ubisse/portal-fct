@@ -96,6 +96,8 @@ header > section > h3 > a {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+/*Estilos para o menu*/
 header > nav {
     display: flex;
     justify-content: right;
@@ -122,22 +124,36 @@ header > nav > ul {
 .dropdown ul {
     display: none;
     position: absolute;
-    top: 30px;
-    left: -5px;
-    z-index: 20000;
-    min-width: 160px;
+    top: 25px;
+    left: -10px;
+    z-index: 2000;
     padding: 0 0 5px;
     background-color: rgba(33, 158, 188, 0.7);
     border-top: 0;
     border-radius: 0 0 10px 10px;
+    font-size: small;
+    min-width: 250px;
+}
+.dropdown:nth-child(2) ul {
+    min-width: 200px;
+}
+.dropdown:nth-child(9) ul {
+    left: -150px;
+    min-width: 300px;
 }
 .dropdown li {
     display: block;
     margin: 0 18px;
     overflow: visible;
+    padding: 8px;
+}
+.dropdown li + li {
+    border-top-style: solid;
+    border-width: thin;
 }
 .dropdown:hover ul {
     display: block;
+    z-index: 2000;
 }
 header > nav > ul > li > ul > li {
     list-style-type: none;
