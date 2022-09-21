@@ -31,10 +31,4 @@ O projecto deste repositório conta com 4 colabordores. Nomeadamente:
 
 ### Layout
 
-##### Desktop
-<img src="./assets/img/site-layout/desktop.png">
-
-##### Mobile
-<img src="./assets/img/site-layout/mobile.png">
-
 **Link para o layout no Figma:** - [https://www.figma.com/file/pTLTwOxu4FN9sNEHVYOHzP/FCT---Pagina-Web?node-id=0%3A1](https://www.figma.com/file/pTLTwOxu4FN9sNEHVYOHzP/FCT---Pagina-Web?node-id=0%3A1)
