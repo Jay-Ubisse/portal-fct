@@ -105,6 +105,25 @@ aside {
     border-top-left-radius: 20px;
     float: right;
 }
+aside > section {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    color: #FFFFFF;
+}
+aside > section + section {
+    margin-top: 10px;
+}
+aside > section > .date {
+    background-color: #0F4C5C;
+    min-width: 50px;
+    min-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px;
+}
 /*seccao das projectos*/
 #explore {
     width: 75%;
@@ -135,6 +154,9 @@ aside {
     color: #FFFFFF;
     margin: 10px;
     font-size: large;
+}
+aside > .section-name {
+    margin-bottom: 30px;
 }
 .show-all {
     font-size: small;

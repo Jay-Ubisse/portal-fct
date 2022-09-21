@@ -30,13 +30,13 @@ header > #logo > img {
     height: 100px;
     position: relative;
     top: 5px;
-    left: 60px;
+    left: 110px;
 }
 header > #logo > p {
     color: #FFFFFF;
     margin-top: 7px;
-    margin-left: 7px;
-    font-size: small;
+    margin-left: 20px;
+    font-size: medium;
 }
 #social-media-header {
     display: flex;
@@ -177,27 +177,27 @@ header > nav > ul > li + li {
 
 
 /*Estilos para o footer*/
-footer > section {
+footer {
     background-color: #219ebc;
     margin-top: 10px;
-    color:#000000;
+    color:#0F4C5C;
     padding: 30px;
+    padding-bottom: 0;
 }
-footer > section > .social-media {
+
+/*Area das redes sociais*/
+.social-media {
     border-bottom-style: solid;
     border-width: thin;
     padding-bottom: 20px;
     padding-left: 10px;
-}
-.social-media{
-    color: #FFFFFF;
     text-transform: uppercase;
     display: flex;
     gap: 20px;
     margin-bottom: 30px;
     margin-left: 15px; 
 }
-.social-media-redes{
+.social-media-icons {
     Width:28px;
     Height:28px;
     background-color: #0F4C5C;
@@ -208,49 +208,43 @@ footer > section > .social-media {
     border-radius: 10px;
 }
 
-.h{
-    justify-content: center;
-    display: flex;
-}
+/*Area da visão e missão*/
 
-/* As 3 divs */
-
-.seccao-info {
+.about-section {
+    width: 70%;
+    float: left;
     display: flex;
-    justify-content: center;   
+    gap: 10px;
+    margin-bottom: 30px;
 }
-.info {
-    gap:30px;
-    padding: 30px;
-    padding-top: 15px; 
-    line-height: 25px; 
-    font-weight: bold;
+.mission, .vision {
+    text-align: center;
+}
+.mission > h3, .vision > h3 {
+    margin-bottom: 5px;
+}
+.links {
+    float: right;
     width: 25%;
-}
-.info > h3 > a {
-    text-decoration: none;  
-    color:#ffffff;
-    text-transform: uppercase;   
-}
-.info > ul{
-    margin-top: 10px; 
-    list-style-type: none;
-}
- .info + .info {
+    margin-left: 20px;
+    padding-left: 20px;
     border-left-style: solid;
     border-width: thin;
-    border-color: #FFFFFF;
 }
-
+.links > h3 {
+    margin-bottom: 5px;
+}
 /* Todos direitos reservados */
+.copyright {
+    clear: both;
+}
 .copyright > p {
     width: 70%;
     border-top-style: solid;
     border-width: thin;
     margin: auto;
-    padding-top: 20px;
+    padding: 0;
+    padding: 10px;
     text-align: center;
     font-weight: 500;
-    margin-top: 10px;
-    border-color: #FFFFFF;
 }
