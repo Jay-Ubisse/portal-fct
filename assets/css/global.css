@@ -83,28 +83,16 @@ header > section > div > input {
 ::-ms-input-placeholder { /*Para Microsoft Edge*/
     color: #FFFFFF;
 }
-header > section > div > img {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-top: 3px;
-    cursor: pointer;
-  }
-header > section > h3 {
-    margin: 15px 15px 0 0;
-}
-header > section > h3 > a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
 
 /*Estilos para o menu*/
 header > nav {
     display: flex;
     justify-content: right;
+    padding: 0;
 }
 header > nav > ul {
     margin-top: 30px;
-    padding: 10px 20px;
+    padding: 6px 0;
     color: #FFFFFF;
     font-size: medium;
     background-color: #219ebc;
@@ -113,9 +101,13 @@ header > nav > ul {
     list-style-type: none;
     gap: 10px;
     justify-content: right;
-    width: 80%;
+    width: 75%;
+    height: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+header > nav > ul > li {
+    padding: 5px 0;
 }
 .dropdown {
     position: relative;
@@ -124,7 +116,7 @@ header > nav > ul {
 .dropdown ul {
     display: none;
     position: absolute;
-    top: 25px;
+    top: 32px;
     left: -10px;
     z-index: 2000;
     padding: 0 0 5px;
@@ -135,11 +127,14 @@ header > nav > ul {
     min-width: 250px;
 }
 .dropdown:nth-child(2) ul {
-    min-width: 200px;
-}
-.dropdown:nth-child(9) ul {
-    left: -150px;
     min-width: 300px;
+}
+.dropdown:nth-child(8) ul {
+    left: -130px;
+    min-width: 300px;
+}
+.dropdown:last-child {
+    margin-right: 40px;
 }
 .dropdown li {
     display: block;
@@ -150,6 +145,7 @@ header > nav > ul {
 .dropdown li + li {
     border-top-style: solid;
     border-width: thin;
+    border-color: lightgray;
 }
 .dropdown:hover ul {
     display: block;
