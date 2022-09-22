@@ -5,6 +5,7 @@ do curso de Engenharia de Tecnologias e Sistemas de Informação (ETSI).
 
 ##### Projecto criado por:
 **Jay Ubisse** - [Jay-Ubisse](https://github.com/Jay-Ubisse)
+
 **Link do repositotio do projecto no GitHub:** [https://github.com/Jay-Ubisse/portal-fct](https://github.com/Jay-Ubisse/portal-fct)
 
 O projecto deste repositório conta com 4 colabordores. Nomeadamente:  
