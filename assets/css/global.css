@@ -30,13 +30,13 @@ header > #logo > img {
     height: 100px;
     position: relative;
     top: 5px;
-    left: 110px;
+    left: 60px;
 }
 header > #logo > p {
     color: #FFFFFF;
-    margin-top: 7px;
-    margin-left: 20px;
-    font-size: medium;
+    margin-top: 13px;
+    margin-left: 10px;
+    font-size: small;
 }
 #social-media-header {
     display: flex;
@@ -101,13 +101,13 @@ header > nav > ul {
     list-style-type: none;
     gap: 10px;
     justify-content: right;
-    width: 75%;
+    width: 85%;
     height: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 header > nav > ul > li {
-    padding: 5px 0;
+    padding: 5px 10px;
 }
 .dropdown {
     position: relative;
@@ -117,7 +117,7 @@ header > nav > ul > li {
     display: none;
     position: absolute;
     top: 32px;
-    left: -10px;
+    left: -13px;
     z-index: 2000;
     padding: 0 0 5px;
     background-color: rgba(33, 158, 188, 0.7);
@@ -141,6 +141,9 @@ header > nav > ul > li {
     margin: 0 18px;
     overflow: visible;
     padding: 8px;
+}
+.dropdown li:hover a{
+    color: #0F4C5C;
 }
 .dropdown li + li {
     border-top-style: solid;
@@ -180,7 +183,7 @@ header > nav > ul > li + li {
 footer {
     background-color: #219ebc;
     margin-top: 10px;
-    color:#0F4C5C;
+    color:#FFFFFF;
     padding: 30px;
     padding-bottom: 0;
 }
@@ -227,7 +230,7 @@ footer {
     float: right;
     width: 25%;
     margin-left: 20px;
-    padding-left: 20px;
+    padding: 20px;
     border-left-style: solid;
     border-width: thin;
 }
