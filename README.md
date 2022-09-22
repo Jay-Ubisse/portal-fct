@@ -3,15 +3,16 @@
 Esta é a página web da FCT, onde serão publicados artigos, notícias, projectos e pesquisas  
 do curso de Engenharia de Tecnologias e Sistemas de Informação (ETSI).  
 
+##### Projecto criado por:
+**Jay Ubisse** - [Jay-Ubisse](https://github.com/Jay-Ubisse)
+**Link do repositotio do projecto no GitHub:** [https://github.com/Jay-Ubisse/portal-fct](https://github.com/Jay-Ubisse/portal-fct)
+
 O projecto deste repositório conta com 4 colabordores. Nomeadamente:  
 - Beijamim Fortunato - [BeijamimFortunato](https://github.com/benfortunato)
 - Eufrasia Avelino -[EufrasiaAvelino](https://github.com/EufrasiaAvelino)
 - Gedia Jangamo - [GediaJagamo](https://github.com/GediaJangamo)
 - Loide Ana - [loidea0](https://github.com/loidea0)
 
-##### Repositório criado por:
-**Jay Ubisse** - [Jay-Ubisse](https://github.com/Jay-Ubisse)
-**Link do repositotio do projecto no GitHub:** [https://github.com/Jay-Ubisse/portal-fct](https://github.com/Jay-Ubisse/portal-fct)
 
 ## Ferramentas usadas
 
