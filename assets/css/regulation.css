@@ -12,10 +12,12 @@ main > article {
     background-color: rgba(33, 158, 188, 0.4);
     color: #FFFFFF;
     text-align: center;
+
 }
 main > article > section {
     width: 70%;
     margin: auto;
+    margin-top: 60px;
 }
 main > aside {
     position: absolute;
@@ -28,7 +30,7 @@ main > aside {
     background-color: rgba(33, 158, 188, 0.4);;
     color: #FFFFFF;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     margin: 20px;
 }
 h3, h4, h5, h6 {
@@ -55,4 +57,44 @@ ol {
 }
 ol > li {
     margin: 10px 0;
+}
+.title {
+    font-size: medium;
+    font-weight: bold;
+}
+.inner-list {
+    list-style-type: lower-alpha;
+}
+.inner-list li {
+    margin-left: 20px;
+}
+.article-paragraph {
+    font-size: medium; 
+    text-align: start; 
+    margin-top: 20px;
+}
+aside  ul {
+    margin-left: 10px;
+    list-style-type: none;
+}
+aside > ul {
+    width: fit-content;
+    margin: auto;
+}
+aside a:hover {
+    color: #219ebc;
+}
+aside a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.summary-outer-list {
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.summary-outer-list li {
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

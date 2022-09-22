@@ -148,7 +148,7 @@ header > nav > ul > li {
 .dropdown li + li {
     border-top-style: solid;
     border-width: thin;
-    border-color: lightgray;
+    border-color: gray;
 }
 .dropdown:hover ul {
     display: block;
