@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial - Portal FCT</title>
-    <link rel="stylesheet" href="./assets/css/global.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Nosso organograma - Portal FCT </title>
+    <link rel="stylesheet" href="./../../assets/css/global.css">
+    <link rel="stylesheet" href="./../../assets/css/chart.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="./assets/js/index.js">
-
-    </script>
 </head>
-
 <body>
     <header>
         <section id="logo">
-            <img src="./assets/img/logo.png">
+            <img src="./../../assets/img/logo.png">
             <p>Faculdade de Ciências e Tecnologia</p>
         </section>
         <section>
@@ -34,16 +29,16 @@
         </section>
         <nav>
             <ul>
-                <li>Pagina Inicial</li>
+                <li><a href="./../../">Pagina Inicial</a></li>
                 <li class="dropdown">
                     <a href="#">Sobre nós</a><i class="fa-solid fa-caret-down"></i>
                     <ul>
-                        <li><a href="./pages/about/">Quem somos?</a></li>
+                        <li><a href="../about/">Quem somos?</a></li>
                         <li><a href="#about">Missão, Visão e Valores</a></li>
-                        <li><a href="./pages/chart/">Estrutura orgânica</a></li>
-                        <li><a href="./pages/regulation/">Regulamento</a></li>
+                        <li>Estrutura orgânica</li>
+                        <li><a href="./../regulation/">Regulamento</a></li>
                         <li><a href="#">Equipe de desenvolvimento do Site</a></li>
-                        <li><a href="./pages/contact/">Contacto</a></li>
+                        <li><a href="./../contact/">Contacto</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -80,96 +75,13 @@
         </nav>
     </header>
     <main>
-        <section id="slideshow">
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="./assets/img/slideshow/slide-1.jpeg">
-                </div>
-                <div class="mySlides hide fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="./assets/img/slideshow/slide-2.jpeg">
-                </div>
-                <div class="mySlides hide fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="./assets/img/slideshow/slide-3.jpeg">
-                </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-        </section>
-        <section id="news">
-            <h2 class="section-name">NOTICIAS <span class="show-all"><a href="#">Todas as noticias</a></span></h2>
-            <div class="box-container">
-                <div class="box">
-                    <h2 class="section-name box-info">NOTICIA 1</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">NOTICIA 2</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">NOTICIA 3</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">NOTICIA 4</h2>
-                </div>
-            </div>
+        <section>
+            <h1>Nossa estrutura orgânica</h1>
+            <img src="../../assets/img/Capture.PNG" alt="estrutura organica">
         </section>
         <aside>
-            <h2 class="section-name">EVENTOS <span class="show-all"><a href="#">Todos os eventos</a></span></h2>
-            <section>
-                <div class="date">
-                    <p>01<br>NOV</p>
-                </div>
-                <div class="info">
-                    <p>Lançamento do sistema de gestão de bolseiros</p>
-                </div>
-            </section>
-            <section>
-                <div class="date">
-                    <p>01<br>DEZ</p>
-                </div>
-                <div class="info">
-                    <p>Lançamento da comunidade UJC</p>
-                </div>
-            </section>
-            <section>
-                <div class="date">
-                    <p>01<br>OUT</p>
-                </div>
-                <div class="info">
-                    <p>Lançamento do portal FCT</p>
-                </div>
-            </section>
+            <h1>Links úteis</h1>
         </aside>
-        <section id="explore">
-            <h2 class="section-name">EXPLORAR</h2>
-            <div class="box-container">
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 1</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 2</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 3</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 4</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 5</h2>
-                </div>
-            </div>
-            <div id="scroll">
-                <a>&#10095;</a>
-            </div>
-        </section>
     </main>
     <footer>
         <div class="social-media">
@@ -208,5 +120,4 @@
         </div>
     </footer>
 </body>
-
 </html>
