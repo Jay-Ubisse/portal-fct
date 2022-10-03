@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial - Portal FCT</title>
     <link rel="stylesheet" href="./assets/css/global.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="./assets/js/jquery-3.6.0.js"></script>
     <script src="./assets/js/jquery-ui.js"></script>
@@ -20,14 +20,14 @@
             <img src="./assets/img/logo.png">
             <p>Faculdade de Ciências e Tecnologia</p>
         </section>
-        <section>
+        <section id="search-and-media">
             <div id="social-media-header">
                 <div class="social-media-redes-top"><i class="fa-brands fa-facebook"></i></div>
                 <div class="social-media-redes-top"><i class="fa-brands fa-twitter"></i></div>
                 <div class="social-media-redes-top"><i class="fa-brands fa-linkedin"></i></div>
                 <div class="social-media-redes-top"><i class="fa-brands fa-youtube"></i></div>
             </div>
-            <div>
+            <div id="search">
                 <input type="search" name="search" placeholder="pesquisar">
                 <i class="fa-solid fa-magnifying-glass" style="color: #FFFFFF; z-index: 1;"></i>
             </div>
@@ -49,7 +49,12 @@
                 <li class="dropdown">
                     <a href="#">Cursos</a><i class="fa-solid fa-caret-down"></i>
                     <ul>
-                        <li class="dropdown-2"><a href="./pages/graduation-course/">Licenciatura</a></li>
+                        <li class="dropdown-2">
+                            <a href="#">Licenciatura</a>
+                            <ul>
+                                <li><a href="./pages/graduation-course/">Engenharia em Tecnologias e Sistemas de Informação</a></li>
+                            </ul>
+                        </li>
                         <li class="dropdown"><a href="./pages/short-duration-curses/">Curta duração</a></li>
                     </ul>
                 </li>
@@ -64,6 +69,7 @@
                     <a href="#">Estudantes</a><i class="fa-solid fa-caret-down"></i>
                     <ul>
                         <li><a href="#">Núcleo dos estudantes</a></li>
+                        <li><a href="#">Estagiários</a></li>
                         <li><a href="#">Guia de estudante</a></li>
                     </ul>
                 </li>

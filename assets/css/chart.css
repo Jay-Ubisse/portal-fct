@@ -4,27 +4,15 @@ main {
     min-height: 100vh;
 }
 main > section {
-    width: 62%;
-    margin: 10px 25px;
+    width: 90%;
+    margin: 10px auto;
     border-radius: 25px;
     min-height: fit-content;
-    background-color: rgba(33, 158, 188, 0.4);
+    background-color: rgba(33, 158, 188, 1);
     color: #FFFFFF;
     padding: 40px;
 }
-main > aside {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 25%;
-    margin: 10px 25px;
-    padding: 20px;
-    border-radius: 25px;
-    min-height: 600px;
-    background-color: rgba(33, 158, 188, 0.4);;
-    color: #FFFFFF;
-}
-section > h1, aside > h1 {
+section > h1 {
     width: fit-content;
     margin: auto;
     margin-bottom: 20px;
