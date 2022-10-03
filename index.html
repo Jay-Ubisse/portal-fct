@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="./assets/js/index.js">
-
-    </script>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/js/jquery-ui.js"></script>
+    <script src="./assets/js/index.js"></script>
 </head>
 
 <body>
@@ -67,8 +67,8 @@
                         <li><a href="#">Guia de estudante</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Eventos</a></li>
+                <li><a href="#news">Noticias</a></li>
+                <li><a href="#events">Eventos</a></li>
                 <li class="dropdown">
                     <a href="#">Repositório</a><i class="fa-solid fa-caret-down"></i>
                     <ul>
@@ -103,73 +103,58 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </section>
-        <section id="news">
-            <h2 class="section-name">NOTICIAS <span class="show-all"><a href="#">Todas as noticias</a></span></h2>
-            <div class="box-container">
-                <div class="box">
-                    <h2 class="section-name box-info">NOTICIA 1</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">NOTICIA 2</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">NOTICIA 3</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">NOTICIA 4</h2>
-                </div>
-            </div>
-        </section>
-        <aside>
-            <h2 class="section-name">EVENTOS <span class="show-all"><a href="#">Todos os eventos</a></span></h2>
-            <section>
-                <div class="date">
-                    <p>01<br>NOV</p>
-                </div>
-                <div class="info">
-                    <p>Lançamento do sistema de gestão de bolseiros</p>
+        <div>
+            <section id="news">
+                <h2 class="section-name">NOTICIAS</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h2 class="section-name box-info">NOTICIA 1</h2>
+                    </div>
+                    <div class="box">
+                        <h2 class="section-name box-info">NOTICIA 2</h2>
+                    </div>
+                    <div class="box">
+                        <h2 class="section-name box-info">NOTICIA 3</h2>
+                    </div>
+                    <div class="box">
+                        <h2 class="section-name box-info">NOTICIA 4</h2>
+                    </div>
+                    <div class="box">
+                        <h2 class="section-name box-info">NOTICIA 1</h2>
+                    </div>
+                    <div class="box">
+                        <h2 class="section-name box-info">NOTICIA 2</h2>
+                    </div>
                 </div>
             </section>
-            <section>
-                <div class="date">
-                    <p>01<br>DEZ</p>
-                </div>
-                <div class="info">
-                    <p>Lançamento da comunidade UJC</p>
-                </div>
-            </section>
-            <section>
-                <div class="date">
-                    <p>01<br>OUT</p>
-                </div>
-                <div class="info">
-                    <p>Lançamento do portal FCT</p>
-                </div>
-            </section>
-        </aside>
-        <section id="explore">
-            <h2 class="section-name">EXPLORAR</h2>
-            <div class="box-container">
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 1</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 2</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 3</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 4</h2>
-                </div>
-                <div class="box">
-                    <h2 class="section-name box-info">DISCOVER 5</h2>
-                </div>
-            </div>
-            <div id="scroll">
-                <a>&#10095;</a>
-            </div>
-        </section>
+            <aside id="events">
+                <h2 class="section-name">EVENTOS <span class="show-all"><a href="#">Todos os eventos</a></span></h2>
+                <section>
+                    <div class="date">
+                        <p>01<br>NOV</p>
+                    </div>
+                    <div class="info">
+                        <p>Lançamento do sistema de gestão de bolseiros</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="date">
+                        <p>01<br>DEZ</p>
+                    </div>
+                    <div class="info">
+                        <p>Lançamento da comunidade UJC</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="date">
+                        <p>01<br>OUT</p>
+                    </div>
+                    <div class="info">
+                        <p>Lançamento do portal FCT</p>
+                    </div>
+                </section>
+            </aside>
+        </div>
     </main>
     <footer>
         <div class="social-media">

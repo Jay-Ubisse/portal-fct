@@ -1,3 +1,18 @@
+$(document).ready(function () {
+    $("#news").hide();
+
+        $("#news").slideDown(800, function() {
+        $("aside").animate(
+            {
+            right: "0"
+        },
+        1000,
+        'easeOutBounce',
+        );
+        });
+      
+}); // end ready
+
 /**Codigo para o slide show */
 
 let slideIndex = 1;

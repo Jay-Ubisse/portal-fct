@@ -4,6 +4,9 @@
     position: relative;
     margin-top: 50px;
 }
+.slideshow-container img {
+    width: 100%;
+}
 /* Ocultar outras imagens por padrao */
 .hide {
     display: none;
@@ -80,6 +83,10 @@
         opacity: 1
     }
 }
+main > div {
+    position: relative;
+    min-height: 100vh;
+}
 /*seccao das noticias*/
 #news {
     width: 75%;
@@ -87,19 +94,20 @@
     min-height: 250px;
     margin-top: 15px;
     padding-bottom: 20px;
+    padding-top: 20px;
     border-top-right-radius: 20px;
-    float: left;
     margin-bottom: 10px;
 }
 /*seccao dos eventos*/
 aside {
     width: 23%;
     background-color: #219ebc;
-    min-height: 500px;
-    margin-top: 15px;
+    min-height: fit-content;
     padding-bottom: 20px;
     border-top-left-radius: 20px;
-    float: right;
+    position: absolute;
+    right: -23%;
+    top: 0;
 }
 aside > section {
     width: 85%;
@@ -119,31 +127,6 @@ aside > section > .date {
     font-weight: bold;
     color: #FFFFFF;
     padding: 5px;
-}
-/*seccao das projectos*/
-#explore {
-    width: 75%;
-    background-color: rgba(255, 255, 255, 0.7);
-    min-height: 250px;
-    position: relative;
-    clear: left;
-}
-#explore > #scroll {
-    background-color: rgba(15, 76, 92, 0.7);
-    height: 100%;
-    width: 100px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-#explore > #scroll > a {
-    font-weight: bold;
-    font-size: 40px;
-    color: #FFFFFF;
 }
 /*Nomes das seccoes*/
 .section-name {
@@ -175,18 +158,22 @@ aside > .section-name {
     color: #FFFFFF;
 }
 .box-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     background-color: transparent;
 }
 .box {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 15px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.box:nth-child(4) {
+    margin-left: 16px;
 }
 .box:first-child {
     margin-left: 20px;
