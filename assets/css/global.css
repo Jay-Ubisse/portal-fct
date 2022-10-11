@@ -115,10 +115,6 @@ header > nav > ul > li {
     position: relative;
     list-style-type: none;
 }
-.dropdown-2 {
-    position: relative;
-    list-style-type: none;
-}
 .dropdown ul {
     display: none;
     position: absolute;
@@ -131,19 +127,6 @@ header > nav > ul > li {
     border-radius: 0 0 10px 10px;
     font-size: small;
     min-width: 250px;
-}
-.dropdown-2 ul {
-    display: none;
-    position: absolute;
-    top: 20px;
-    left: 230px;
-    z-index: 2000;
-    padding: 0 0 5px;
-    background-color: rgba(33, 158, 188, 1);
-    border-top: 0;
-    border-radius: 0 10px 10px 0;
-    font-size: small;
-    min-width: 350px;
 }
 .dropdown:nth-child(2) ul {
     min-width: 300px;
@@ -161,16 +144,7 @@ header > nav > ul > li {
     overflow: visible;
     padding: 8px;
 }
-.dropdown-2 li {
-    display: block;
-    margin: 0 18px;
-    overflow: visible;
-    padding: 8px;
-}
 .dropdown li:hover a{
-    color: #0F4C5C;
-}
-.dropdown-2 li:hover a{
     color: #0F4C5C;
 }
 .dropdown li + li {
@@ -178,16 +152,7 @@ header > nav > ul > li {
     border-width: thin;
     border-color: #cad2c5;
 }
-.dropdown-2 li + li {
-    border-top-style: solid;
-    border-width: thin;
-    border-color: #cad2c5;
-}
 .dropdown:hover ul {
-    display: block;
-    z-index: 2000;
-}
-.dropdown-2:hover ul {
     display: block;
     z-index: 2000;
 }
