@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,9 @@
     <link rel="stylesheet" href="./../../assets/css/global.css">
     <link rel="stylesheet" href="./../../assets/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script type="module" src="../../assets/js/contact.js"></script>
 </head>
+
 <body>
     <header>
         <section id="logo">
@@ -48,7 +51,8 @@
                             <li class="dropdown">
                                 <a href="#">Licenciatura</a><i class="fa-solid fa-caret-right"></i>
                                 <ul class="submenu">
-                                    <li><a href="../graduation-course/">Engenharia em Tecnologias e Sistemas de Informação</a></li>
+                                    <li><a href="../graduation-course/">Engenharia em Tecnologias e Sistemas de
+                                            Informação</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown"><a href="../short-duration-curses/">Curta duração</a></li>
@@ -87,16 +91,22 @@
         <section>
             <h1 style="width: fit-content; margin: 20px auto;">Nossos contactos</h1>
             <p class="email">Email: <a href="fct@ujc.ac.mz">fct@ujc.ac.mz</a></p>
-            <div class="social-media" style="border-style: solid none; margin: 20px auto 0 auto; width: 60%; padding: 10px 0; align-items: center; justify-content: center; border-color: #219ebc;">
+            <div class="social-media"
+                style="border-style: solid none; margin: 20px auto 0 auto; width: 60%; padding: 10px 0; align-items: center; justify-content: center; border-color: #000000;">
                 <p>Redes sociais</p>
                 <div class="social-media-icons"><i class="fa-brands fa-facebook"></i></div>
                 <div class="social-media-icons"><i class="fa-brands fa-twitter"></i></div>
                 <div class="social-media-icons"> <i class="fa-brands fa-linkedin"></i></div>
                 <div class="social-media-icons"><i class="fa-brands fa-youtube"></i></div>
             </div>
+            <h1 style="text-align: center;">Mapa</h1>
+            <div id="map" style="height: 400px; width: 100%; background-color: lightgray; margin: 20px auto 0 auto; width: 60%; padding: 10px 0; align-items: center; justify-content: center; border-color: #000000;">
+
+            </div>
         </section>
         <aside>
-            <h4 style="margin: 30px; text-align: center; width: 80%; font-size: large; border-bottom-style: solid; border-width: thin; padding-bottom: 15px;">
+            <h4
+                style="margin: 30px; text-align: center; width: 80%; font-size: large; border-bottom-style: solid; border-width: thin; padding-bottom: 15px;">
                 Links úteis
             </h4>
         </aside>
@@ -137,5 +147,8 @@
             <p>&copy;&nbsp;2022.Todos os direitos reservados</p>
         </div>
     </footer>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
 </body>
+
 </html>

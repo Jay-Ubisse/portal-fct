@@ -23,49 +23,24 @@ main > aside {
     background-color: rgba(33, 158, 188, 1);
     color: #FFFFFF;
 }
-.collaborators-area {
-    display: flex;
-    gap: 50px;
-    width: fit-content;
-    margin: auto;
-}
-.collaborators {
-    width: fit-content;
-    background-color: transparent;
-    border-style: solid;
-    border-color: #219ebc;
-    border-radius: 10px;
-    text-align: center;
-    padding: 20px;
-}
 .email {
     width: 60%;
     margin: auto;
     border-top-style: solid;
     border-bottom-style: solid;
-    border-color: #219ebc;
+    border-color: #000000;
     border-width: thin;
     text-align: center;
     margin-bottom: 20px;
     padding: 5px;
     font-size: small;
 }
-.cell {
-    text-align: center;
-    font-size: small;
-}
 .email  a {
     color: white;
 }
-.col-name {
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    color: #219ebc;
-    padding: 5px 10px;
-    font-weight: bold;
-}
-.col-rol {
-    font-size: small;
-    margin-top: 7px;
-    margin-bottom: 15px;
-}
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
