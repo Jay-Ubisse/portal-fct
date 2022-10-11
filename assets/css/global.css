@@ -115,10 +115,10 @@ header > nav > ul > li {
     position: relative;
     list-style-type: none;
 }
-.dropdown ul {
+.dropdown > ul {
     display: none;
     position: absolute;
-    top: 32px;
+    top: 30px;
     left: -13px;
     z-index: 2000;
     padding: 0 0 5px;
@@ -128,10 +128,19 @@ header > nav > ul > li {
     font-size: small;
     min-width: 250px;
 }
-.dropdown:nth-child(2) ul {
+.dropdown > .submenu {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+}
+.dropdown:nth-child(2) > ul {
     min-width: 300px;
 }
-.dropdown:nth-child(8) ul {
+.dropdown:nth-child(3) > ul {
+    min-width: 200px;
+}
+.dropdown:nth-child(8) > ul {
     left: -130px;
     min-width: 300px;
 }
@@ -144,15 +153,15 @@ header > nav > ul > li {
     overflow: visible;
     padding: 8px;
 }
-.dropdown li:hover a{
+.dropdown > ul > li:hover > a{
     color: #0F4C5C;
 }
 .dropdown li + li {
     border-top-style: solid;
     border-width: thin;
-    border-color: #cad2c5;
+    border-color: #6c757d;
 }
-.dropdown:hover ul {
+.dropdown:hover > ul {
     display: block;
     z-index: 2000;
 }
