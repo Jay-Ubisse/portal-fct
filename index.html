@@ -11,6 +11,7 @@
     <script src="./assets/js/jquery-3.6.0.js"></script>
     <script src="./assets/js/jquery-ui.js"></script>
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/global.js"></script>
 </head>
 <body>
     <header>
@@ -31,11 +32,12 @@
             </div>
         </section>
         <nav>
-            <ul>
+            <div id="menu-icon"><i class="fa-solid fa-bars fa-2x"></i></div>
+            <ul id="nav">
                 <li>Pagina Inicial</li>
                 <li class="dropdown">
                     <a href="#">Sobre nós</a><i class="fa-solid fa-caret-down"></i>
-                    <ul>
+                    <ul class="second-menu">
                         <li><a href="./pages/about/">Quem somos?</a></li>
                         <li><a href="#about">Missão, Visão e Valores</a></li>
                         <li><a href="./pages/chart/">Estrutura orgânica</a></li>
@@ -53,7 +55,7 @@
                                 <li><a href="./pages/graduation-course/">Engenharia em Tecnologias e Sistemas de Informação</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="./pages/short-duration-curses/">Curta duração</a></li>
+                        <li><a href="./pages/short-duration-curses/">Curta duração</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

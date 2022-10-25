@@ -1,192 +1,388 @@
-/* O container do slideshow */
-.slideshow-container {
-    width: 100%;
-    position: relative;
-    margin-top: 30px;
-}
-.slideshow-container img {
-    width: 100%;
-}
-/* Ocultar outras imagens por padrao */
-.hide {
-    display: none;
-}
-
-/* Botoes de proximo e anterior */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: black;
-    font-weight: bold;
-    font-size: 25px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Posicionar o botao "proximo" a direita */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* Quando passar o mouser pelos botoes "proximo e anterir" mudar o fundo para branco com alguma opacidade*/
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #FFFFFF;
-}
-
-/* Os numeros (1/2 etc) */
-.numbertext {
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* Os pontos/bullets/indicadores */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #219ebc;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.dot:hover {
-    background-color: #0F4C5C;
-}
-
-/* animacao fade*/
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
+@media (min-width: 768px) {
+        /* O container do slideshow */
+    .slideshow-container {
+        width: 100%;
+        position: relative;
+        margin-top: 30px;
+    }
+    .slideshow-container img {
+        width: 100%;
+    }
+    /* Ocultar outras imagens por padrao */
+    .hide {
+        display: none;
     }
 
-    to {
-        opacity: 1
+    /* Botoes de proximo e anterior */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Posicionar o botao "proximo" a direita */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* Quando passar o mouser pelos botoes "proximo e anterir" mudar o fundo para branco com alguma opacidade*/
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #FFFFFF;
+    }
+
+    /* Os numeros (1/2 etc) */
+    .numbertext {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* Os pontos/bullets/indicadores */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #219ebc;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .dot:hover {
+        background-color: #0F4C5C;
+    }
+
+    /* animacao fade*/
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+    main > div {
+        position: relative;
+        top: -10px;
+        min-height: fit-content;
+    }
+    /*seccao das noticias*/
+    #news {
+        width: 75%;
+        background-color: #219ebc;
+        min-height: 250px;
+        margin-top: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-top-right-radius: 20px;
+        margin-bottom: 10px;
+    }
+    /*seccao dos eventos*/
+    aside {
+        width: 23%;
+        background-color: #219ebc;
+        min-height: fit-content;
+        padding-bottom: 20px;
+        border-top-left-radius: 20px;
+        position: absolute;
+        right: -23%;
+        top: 0;
+    }
+    aside > section {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        gap: 15px;
+        color: #FFFFFF;
+    }
+    aside > section + section {
+        margin-top: 10px;
+    }
+    aside > section > .date {
+        background-color: #0F4C5C;
+        min-width: 50px;
+        min-height: 50px;
+        text-align: center;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding: 5px;
+    }
+    /*Nomes das seccoes*/
+    .section-name {
+        color: #FFFFFF;
+        margin: 10px;
+        font-size: large;
+    }
+    aside > .section-name {
+        margin-bottom: 30px;
+    }
+    .show-all {
+        font-size: small;
+        font-weight: 400;
+        position: relative;
+        top: -4px;
+    }
+    /*Links "mostrar todos"*/
+    .show-all > a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .show-all > a:hover {
+        color: #0F4C5C;
+    }
+    .show-all > a:visited {
+        color: #FFFFFF;
+    }
+    .show-all > a:active {
+        color: #FFFFFF;
+    }
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        background-color: transparent;
+    }
+    .box {
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .box p {
+        color: #0F4C5C;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .box:nth-child(4) {
+        margin-left: 16px;
+    }
+    .box:first-child {
+        margin-left: 20px;
+    }
+    .box-info {
+        color: #0F4C5C;
+        text-align: center;
     }
 }
-main > div {
-    position: relative;
-    top: -10px;
-    min-height: fit-content;
-}
-/*seccao das noticias*/
-#news {
-    width: 75%;
-    background-color: #219ebc;
-    min-height: 250px;
-    margin-top: 15px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    border-top-right-radius: 20px;
-    margin-bottom: 10px;
-}
-/*seccao dos eventos*/
-aside {
-    width: 23%;
-    background-color: #219ebc;
-    min-height: fit-content;
-    padding-bottom: 20px;
-    border-top-left-radius: 20px;
-    position: absolute;
-    right: -23%;
-    top: 0;
-}
-aside > section {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    gap: 15px;
-    color: #FFFFFF;
-}
-aside > section + section {
-    margin-top: 10px;
-}
-aside > section > .date {
-    background-color: #0F4C5C;
-    min-width: 50px;
-    min-height: 50px;
-    text-align: center;
-    font-weight: bold;
-    color: #FFFFFF;
-    padding: 5px;
-}
-/*Nomes das seccoes*/
-.section-name {
-    color: #FFFFFF;
-    margin: 10px;
-    font-size: large;
-}
-aside > .section-name {
-    margin-bottom: 30px;
-}
-.show-all {
-    font-size: small;
-    font-weight: 400;
-    position: relative;
-    top: -4px;
-}
-/*Links "mostrar todos"*/
-.show-all > a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.show-all > a:hover {
-    color: #0F4C5C;
-}
-.show-all > a:visited {
-    color: #FFFFFF;
-}
-.show-all > a:active {
-    color: #FFFFFF;
-}
-.box-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    background-color: transparent;
-}
-.box {
-    width: 300px;
-    height: 300px;
-    border-radius: 15px;
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-}
-.box p {
-    color: #0F4C5C;
-    text-decoration: underline;
-    cursor: pointer;
-}
-.box:nth-child(4) {
-    margin-left: 16px;
-}
-.box:first-child {
-    margin-left: 20px;
-}
-.box-info {
-    color: #0F4C5C;
-    text-align: center;
+@media (min-width: 320px) and (max-width: 767px) {
+        /* O container do slideshow */
+    .slideshow-container {
+        width: 100%;
+        position: relative;
+        margin-top: 30px;
+    }
+    .slideshow-container img {
+        width: 100%;
+    }
+    /* Ocultar outras imagens por padrao */
+    .hide {
+        display: none;
+    }
+
+    /* Botoes de proximo e anterior */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Posicionar o botao "proximo" a direita */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* Quando passar o mouser pelos botoes "proximo e anterir" mudar o fundo para branco com alguma opacidade*/
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #FFFFFF;
+    }
+
+    /* Os numeros (1/2 etc) */
+    .numbertext {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* Os pontos/bullets/indicadores */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #219ebc;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .dot:hover {
+        background-color: #0F4C5C;
+    }
+
+    /* animacao fade*/
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+    main > div {
+        position: relative;
+        top: -10px;
+        min-height: fit-content;
+    }
+    /*seccao das noticias*/
+    #news {
+        width: 75%;
+        background-color: #219ebc;
+        min-height: 250px;
+        margin-top: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-top-right-radius: 20px;
+        margin-bottom: 10px;
+    }
+    /*seccao dos eventos*/
+    aside {
+        width: 23%;
+        background-color: #219ebc;
+        min-height: fit-content;
+        padding-bottom: 20px;
+        border-top-left-radius: 20px;
+        position: absolute;
+        right: -23%;
+        top: 0;
+    }
+    aside > section {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        gap: 15px;
+        color: #FFFFFF;
+    }
+    aside > section + section {
+        margin-top: 10px;
+    }
+    aside > section > .date {
+        background-color: #0F4C5C;
+        min-width: 50px;
+        min-height: 50px;
+        text-align: center;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding: 5px;
+    }
+    /*Nomes das seccoes*/
+    .section-name {
+        color: #FFFFFF;
+        margin: 10px;
+        font-size: large;
+    }
+    aside > .section-name {
+        margin-bottom: 30px;
+    }
+    .show-all {
+        font-size: small;
+        font-weight: 400;
+        position: relative;
+        top: -4px;
+    }
+    /*Links "mostrar todos"*/
+    .show-all > a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .show-all > a:hover {
+        color: #0F4C5C;
+    }
+    .show-all > a:visited {
+        color: #FFFFFF;
+    }
+    .show-all > a:active {
+        color: #FFFFFF;
+    }
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        background-color: transparent;
+    }
+    .box {
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .box p {
+        color: #0F4C5C;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .box:nth-child(4) {
+        margin-left: 16px;
+    }
+    .box:first-child {
+        margin-left: 20px;
+    }
+    .box-info {
+        color: #0F4C5C;
+        text-align: center;
+    }
 }
