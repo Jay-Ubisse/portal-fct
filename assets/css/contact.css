@@ -52,7 +52,7 @@
     }
     main > section {
         width: 90%;
-        margin: 10px 25px;
+        margin: 12px auto;
         padding: 20px 0;
         border-radius: 25px;
         min-height: 200px;

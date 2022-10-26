@@ -63,8 +63,8 @@
         min-height: 100vh;
     }
     main > section {
-        width: 62%;
-        margin: auto;
+        width: 90%;
+        margin: 12px auto;
         border-radius: 25px;
         min-height: fit-content;
         background-color: rgba(33, 158, 188, 1);
