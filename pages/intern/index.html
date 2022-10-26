@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - Portal FCT </title>
+    <link rel="stylesheet" href="./../../assets/css/global.css">
+    <link rel="stylesheet" href="./../../assets/css/intern.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="../../assets/js/jquery-3.6.0.js"></script>
+    <script src="../../assets/js/global.js"></script>
+    <script src="../../assets/js/intern.js"></script>
+</head>
+<body>
+    <header>
+        <section id="logo">
+            <img src="./../../assets/img/logo.png">
+            <p>Faculdade de Ciências e Tecnologia</p>
+        </section>
+        <section id="search-and-media">
+            <div id="social-media-header">
+                <div class="social-media-redes-top"><i class="fa-brands fa-facebook"></i></div>
+                <div class="social-media-redes-top"><i class="fa-brands fa-twitter"></i></div>
+                <div class="social-media-redes-top"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="social-media-redes-top"><i class="fa-brands fa-youtube"></i></div>
+            </div>
+            <div id="search">
+                <input type="search" name="search" placeholder="pesquisar">
+                <i class="fa-solid fa-magnifying-glass" style="color: #FFFFFF; z-index: 1;"></i>
+            </div>
+        </section>
+        <nav>
+            <div id="menu-icon"><i class="fa-solid fa-bars fa-2x"></i></div>
+            <ul id="nav">
+                <li><a href="./../../">Pagina Inicial</a></li>
+                <li class="dropdown">
+                    <a href="#">Sobre nós</a><i class="fa-solid fa-caret-down"></i>
+                    <ul>
+                        <li>Quem somos?</li>
+                        <li><a href="#about">Missão, Visão e Valores</a></li>
+                        <li><a href="../chart/">Estrutura orgânica</a></li>
+                        <li><a href="./../regulation/">Regulamento</a></li>
+                        <li><a href="../standards/">Normas e Regulamentos</a></li>
+                        <li>Contacto</li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Cursos</a><i class="fa-solid fa-caret-down"></i>
+                    <ul>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#">Licenciatura</a><i class="fa-solid fa-caret-right"></i>
+                                <ul class="submenu">
+                                    <li><a href="../graduation-course/">Engenharia em Tecnologias e Sistemas de Informação</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="../short-duration-curses/">Curta duração</a></li>
+                        </ul>
+                        <li class="dropdown">Curta duração</li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Investigação</a><i class="fa-solid fa-caret-down"></i>
+                    <ul>
+                        <li><a href="#">Trabalhos Científicos</a></li>
+                        <li><a href="#">Projectos desenvolvidos</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Estudantes</a><i class="fa-solid fa-caret-down"></i>
+                    <ul>
+                        <li><a href="../admission/">Admissão</a></li>
+                        <li>Estagiários</li>
+                        <li><a href="#">Núcleo dos estudantes</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li class="dropdown">
+                    <a href="#">Repositório</a><i class="fa-solid fa-caret-down"></i>
+                    <ul>
+                        <li><a href="#">Calendário de defesas</a></li>
+                        <li><a href="#">Trabalhos de conclusão do curso</a></li>
+                        <li><a href="#">Monografias</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>
+                Não é segredo que um dos grandes desafios dos Moçambicanos recém-formados na graduação 
+                é a dificuldade de ingressar no mercado de trabalho.
+            </p>
+            <p>
+                A Faculdade de Ciências e Tecnologia, através do Departamento de Tecnologia de Informação e 
+                Comunicação e Biblioteca, criou a possibilidade dos estudantes do curso de Engenharia de Tecnologia 
+                e Sistema de Informação fazerem o seu estágio na Universidade.
+            </p>
+            <p>
+                Esta é uma etapa fundamental no processo de desenvolvimento e aprendizagem do estudante, porque, 
+                promove oportunidades de vivenciar na prática conteúdos acadêmicos, propiciando a aquisição de 
+                conhecimentos e atitudes relacionadas com a profissão escolhida pelo estagiário.
+            </p>
+            <p>
+                Além de contribuir para ter um currículo mais sólido, o que faz diferença em processos seletivos, 
+                o estágio é fundamental para descobrir e explorar as áreas profissionais relacionadas à formação que 
+                escolheu e entender melhor as suas possibilidades de carreira.
+            </p>
+            <div>
+                <section id="select-area">
+                    <label for="select-option">Selecione o grupo de estagiários</label><br>
+                    <select id="select" name="select-option">
+                        <option value="first">1º Grupo (03/2021)</option>
+                        <option value="second">2º Grupo (07/2021)</option>
+                        <option value="third">3º Grupo (03/2022)</option>
+                    </select>
+                </section>
+                <section id="group-area">
+                    <table id="first-table">
+                        <tr>
+                            <td class="table-numbers"><strong>Nº</strong></td><td class="table-names"><strong>Nomes dos estagiários</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">01</td><td class="table-names">Anatália Neves Mula</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">02</td><td class="table-names">Edson Valdemar Guilande</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">03</td><td class="table-names">Meque Macuacua</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">04</td><td class="table-names">Mercio Assane</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">05</td><td class="table-names">Michela Tsope</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">06</td><td class="table-names">Sanlato Americo</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">07</td><td class="table-names">Teresa Joao Mendes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">08</td><td class="table-names">Filimao Rafael Langa</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">09</td><td class="table-names">Gloria Chalufo</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">10</td><td class="table-names">Julieta Paulo Muzima</td>
+                        </tr>
+                    </table>
+                    <table id="second-table">
+                        <tr>
+                            <td class="table-numbers"><strong>Nº</strong></td><td class="table-names"><strong>Nomes dos estagiários</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">01</td><td class="table-names">Vania Carolina Macome</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">02</td><td class="table-names">Cintya Natalia Ruca</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">03</td><td class="table-names">Dercio Elisio Marcos Machanisse</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">04</td><td class="table-names">Melo Osvaldo Ivete dos Santos</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">05</td><td class="table-names">Alcídio Sebastiao Fondo</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">06</td><td class="table-names">Nilton Valente Mavila</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">07</td><td class="table-names">Alessandro Mahumane</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">08</td><td class="table-names">Dádiva Muirezeque</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">09</td><td class="table-names">Ana Stela Manuel Amade</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">10</td><td class="table-names">Amanda Helena Bobo</td>
+                        </tr>
+                    </table>
+                    <table id="third-table">
+                        <tr>
+                            <td class="table-numbers"><strong>Nº</strong></td><td class="table-names"><strong>Nomes dos estagiários</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">01</td><td class="table-names">Allan Utxavo</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">02</td><td class="table-names">Armando Alberto</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">03</td><td class="table-names">Bene Lucas</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">04</td><td class="table-names">Benjamim Fortunato Zunguze</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">05</td><td class="table-names">Bernardo de Humberto Mefino</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">06</td><td class="table-names">Célia Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">07</td><td class="table-names">Eufrásia Avelino Marco</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">08</td><td class="table-names">Faizal Everessone André Júnior</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">09</td><td class="table-names">Gédia Genifa Lucas Jangamo</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">10</td><td class="table-names">José Gabriel Bila</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">11</td><td class="table-names">Joaquim Ubisse</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">12</td><td class="table-names">Loide Ana Salomão</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">13</td><td class="table-names">Maria Zacarias</td>
+                        </tr>
+                        <tr>
+                            <td class="table-numbers">14</td><td class="table-names">Vasco Laisse</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </section>
+        <aside>
+            <h4 style="margin: 30px; text-align: center; width: 80%; font-size: large; border-bottom-style: solid; border-width: thin; padding-bottom: 15px;">
+                Links úteis
+            </h4>
+        </aside>
+    </main>
+    <footer>
+        <div class="social-media">
+            <h2>Connecte-se connosco</h2>
+            <div class="social-media-icons"><i class="fa-brands fa-facebook"></i></div>
+            <div class="social-media-icons"><i class="fa-brands fa-twitter"></i></div>
+            <div class="social-media-icons"> <i class="fa-brands fa-linkedin"></i></div>
+            <div class="social-media-icons"><i class="fa-brands fa-youtube"></i></div>
+        </div>
+        <div class="about-section" id="about">
+            <div class="mission">
+                <h3>Missão</h3>
+                <p>
+                    Prover um serviço público para a formação de cidadãos de nível
+                    superior de qualidade através da pesquisa, ensino e extensão com
+                    competências e conhecimento nos domínios de ciências e tecnologia.
+                </p>
+            </div>
+            <div class="vision">
+                <h3>Visão</h3>
+                <p>
+                    Ser uma faculdade de referência nacional, regional e internacional
+                    na promoção de excelência no ensino superior, investigação e inovação
+                    nas áreas de ciências e tecnologia.
+                </p>
+            </div>
+        </div>
+        <div class="links">
+            <h3>LINKS RÁPIDOS</h3>
+            <p>Perguntas frequentes</p>
+            <p>Exames de admissão</p>
+            <p>Calendário académico</p>
+        </div>
+        <div class="copyright">
+            <p>&copy;&nbsp;2022.Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

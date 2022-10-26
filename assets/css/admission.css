@@ -69,7 +69,7 @@
         min-height: fit-content;
         background-color: rgba(33, 158, 188, 1);
         color: #FFFFFF;
-        padding: 40px;
+        padding: 10px;
     }
     main > aside {
         display: none;
