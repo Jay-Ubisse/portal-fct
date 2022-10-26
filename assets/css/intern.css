@@ -91,7 +91,7 @@
     section p {
         margin: 10px;
     }
-    section > div {
+    section > #iterns-area {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
