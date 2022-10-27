@@ -25,21 +25,42 @@
         background-color: rgba(33, 158, 188, 1);;
         color: #FFFFFF;
     }
-    section > h1, aside > h1 {
+    section > h1 {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 40px;
+        border-bottom: solid; 
+        border-width: thin; 
+        padding: 20px;
+        
+    }
+    section > h2 {
+        width: 75%;
+        margin: 40px 20px;
+        border-bottom: solid; 
+        border-width: thin; 
+        padding: 0 0 10px 0;
+        
+    }
+    aside > h1 {
         width: fit-content;
-        margin: 20px auto;
+        margin: auto;
+        margin-bottom: 20px;
+        
     }
     section li {
-        margin: 5px;
-        margin-left: 60px;
+        margin: 20px 20px 20px 60px;
     }
     section p {
         margin: 10px;
     }
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
     main {
+        position: relative;
         margin-top: 110px;
+        min-height: 100vh;
     }
     main > section {
         width: 90%;
@@ -63,17 +84,33 @@
         background-color: rgba(33, 158, 188, 1);;
         color: #FFFFFF;
     }
-    section > h1, aside > h1 {
+    section > h1 {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 40px;
+        border-bottom: solid; 
+        border-width: thin; 
+        padding: 20px;
+        
+    }
+    section > h2 {
+        width: 75%;
+        margin: 40px 20px;
+        border-bottom: solid; 
+        border-width: thin; 
+        padding: 0 0 10px 0;
+        
+    }
+    aside > h1 {
         width: fit-content;
-        margin: 20px auto;
+        margin: auto;
+        margin-bottom: 20px;
+        
     }
     section li {
-        margin: 5px;
-        margin-left: 60px;
+        margin: 20px 20px 20px 60px;
     }
     section p {
         margin: 10px;
     }
 }
-
-

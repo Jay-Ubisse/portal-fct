@@ -25,25 +25,50 @@
         background-color: rgba(33, 158, 188, 1);;
         color: #FFFFFF;
     }
-    section > h1, aside > h1 {
+    aside > h1 {
         width: fit-content;
-        margin: 20px auto;
-    }
-    section li {
-        margin: 5px;
-        margin-left: 60px;
+        margin: auto;
+        margin-bottom: 20px;
+        
     }
     section p {
         margin: 10px;
     }
+    section > div {
+        display: flex;
+        justify-content: space-around;
+        border-top: solid;
+        border-width: thin;
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+    #select-area {
+        width: 30%;
+        border-right-style: solid;
+        border-width: thin;
+        padding-right: 20px;
+    }
+    #group-area {
+        width: 70%;
+        margin-left: 30px;
+    }
+    .table-numbers {
+        width: 50px;
+    }
+    .table-names {
+        width: fit-content;
+    }
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
     main {
+        position: relative;
         margin-top: 110px;
+        min-height: 100vh;
     }
     main > section {
         width: 90%;
-        margin: 12px auto;
+        margin: 10px auto;
         border-radius: 25px;
         min-height: fit-content;
         background-color: rgba(33, 158, 188, 1);
@@ -63,17 +88,32 @@
         background-color: rgba(33, 158, 188, 1);;
         color: #FFFFFF;
     }
-    section > h1, aside > h1 {
-        width: fit-content;
-        margin: 20px auto;
-    }
-    section li {
-        margin: 5px;
-        margin-left: 60px;
-    }
     section p {
         margin: 10px;
     }
+    section > #iterns-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-top: solid;
+        border-width: thin;
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+    #select-area {
+        width: 100%;
+        border-bottom-style: solid;
+        border-width: thin;
+        padding-bottom: 20px;
+    }
+    #group-area {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .table-numbers {
+        width: 50px;
+    }
+    .table-names {
+        width: fit-content;
+    }
 }
-
-
