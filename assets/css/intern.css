@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     main {
         position: relative;
         margin-top: 70px;
@@ -34,7 +34,7 @@
     section p {
         margin: 10px;
     }
-    section > div {
+    section > div#iterns-area {
         display: flex;
         justify-content: space-around;
         border-top: solid;
@@ -60,7 +60,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 1023px) {
     main {
         position: relative;
         margin-top: 110px;

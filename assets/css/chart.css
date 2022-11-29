@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     main {
         position: relative;
         margin-top: 70px;
@@ -26,7 +26,7 @@
         border-radius: 10px;
     }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 1023px) {
     main {
         position: relative;
         margin-top: 110px;

@@ -14,7 +14,7 @@ body {
     background-color: #ced4da;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
     /*Estilos para o header*/
     header > section#search-and-media {
@@ -274,7 +274,7 @@ body {
 
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 1023px) {
     /*Estilos para o header*/
     header > section#search-and-media {
         display: block;
