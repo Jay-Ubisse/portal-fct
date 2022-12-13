@@ -58,6 +58,10 @@ body {
         align-items: center;
         border-radius: 10px;
     }
+    .social-media-redes-top a {
+        color: white;
+        text-decoration: none;
+    }
     header > section > div#search {
         background-color: #219ebc;
         padding: 5px 15px;
