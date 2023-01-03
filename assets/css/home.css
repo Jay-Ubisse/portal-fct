@@ -304,6 +304,23 @@
         flex-direction: column;
         gap: 10px;
     }
+    #admission {
+        background-color: #219ebc;
+        margin: 30px 0;
+        padding: 30px;
+        font-size: larger;
+    }
+    #admission a {
+        color: white;
+        text-decoration: none;
+    }
+    #admission a:hover {
+        color: lightgray;
+    }
+    #admission a:visited {
+        color: white;
+        text-decoration: none;
+    }
     /*seccao das noticias*/
     #news {
         width: 90%;
