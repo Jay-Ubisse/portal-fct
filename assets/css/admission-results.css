@@ -1,0 +1,94 @@
+@media (min-width: 1024px) {
+    main {
+        position: relative;
+        margin-top: 70px;
+        min-height: 100vh;
+    }
+    main > section {
+        width: 90%;
+        margin: 10px auto;
+        border-radius: 25px;
+        min-height: fit-content;
+        background-color: rgba(33, 158, 188, 1);
+        color: #FFFFFF;
+        padding: 40px;
+    }
+    table {
+        width: 80%;
+        margin: 10px auto;
+    }
+    table, th, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+    .table-numbers {
+        width: 50px;
+    }
+    .table-names {
+        width: fit-content;
+    }
+    section > h1, aside > h1 {
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    section > h4 {
+        width: fit-content;
+        margin: 20px auto 10px auto;
+        margin-bottom: 20px;
+    }
+    section li {
+        margin: 5px;
+    }
+    section p {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    main {
+        margin-top: 110px;
+        min-height: 100vh;
+    }
+    main > section {
+        width: 90%;
+        margin: 12px auto;
+        border-radius: 25px;
+        min-height: fit-content;
+        background-color: rgba(33, 158, 188, 1);
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    table {
+        width: 95%;
+        margin: 10px auto;
+    }
+    table, th, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+    .table-numbers {
+        width: 50px;
+    }
+    .table-names {
+        width: fit-content;
+    }
+    section > h4 {
+        width: fit-content;
+        margin: 20px auto 10px auto;
+        margin-bottom: 20px;
+    }
+    section > h1 {
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    section li {
+        margin: 12px;
+    }
+    section p {
+        margin: 6px;
+    }
+}

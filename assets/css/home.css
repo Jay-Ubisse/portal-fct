@@ -84,6 +84,23 @@
             opacity: 1
         }
     }
+    #admission {
+        background-color: #219ebc;
+        margin: 30px 0;
+        padding: 30px;
+        font-size: larger;
+    }
+    #admission a {
+        color: white;
+        text-decoration: none;
+    }
+    #admission a:hover {
+        color: lightgray;
+    }
+    #admission a:visited {
+        color: white;
+        text-decoration: none;
+    }
     main > div {
         position: relative;
         top: -10px;
