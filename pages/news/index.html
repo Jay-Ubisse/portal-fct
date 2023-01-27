@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admissão - Portal FCT </title>
+    <title>Noticias - Portal FCT </title>
     <link rel="stylesheet" href="./../../assets/css/global.css">
-    <link rel="stylesheet" href="./../../assets/css/admission.css">
+    <link rel="stylesheet" href="./../../assets/css/admission-results.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="../../assets/js/jquery-3.6.0.js"></script>
     <script src="../../assets/js/global.js"></script>
     <style>
+        .img {
+            width: 40%;
+            float: left;
+            margin-right: 20px;
+        }
+        .img img {
+            width: 100%;
+        }
+        .hackaton, .e-just {
+            min-height: 250px;
+        }
         .link {
             color: white;
             text-decoration: none;
@@ -51,22 +62,19 @@
                         <li><a href="../chart/">Estrutura orgânica</a></li>
                         <li><a href="./../regulation/">Regulamento</a></li>
                         <li><a href="../standards/">Normas e Regulamentos</a></li>
-                        <li>Contacto</li>
+                        <li><a href="./../contact/">Contacto</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#">Cursos</a><i class="fa-solid fa-caret-down"></i>
                     <ul>
-                        <ul>
-                            <li class="dropdown">
-                                <a href="#">Licenciatura</a><i class="fa-solid fa-caret-right"></i>
-                                <ul class="submenu">
-                                    <li><a href="../graduation-course/">Engenharia em Tecnologias e Sistemas de Informação</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="../short-duration-curses/">Curta duração</a></li>
-                        </ul>
-                        <li class="dropdown">Curta duração</li>
+                        <li class="dropdown">
+                            <a href="#">Licenciatura</a><i class="fa-solid fa-caret-right"></i>
+                            <ul class="submenu">
+                                <li><a href="../graduation-course/">Engenharia em Tecnologias e Sistemas de Informação</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="../short-duration-curses/">Curta duração</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -79,7 +87,7 @@
                 <li class="dropdown">
                     <a href="#">Estudantes</a><i class="fa-solid fa-caret-down"></i>
                     <ul>
-                        <li>Admissão</li>
+                        <li><a href="../admission/">Admissão</a></li>
                         <li><a href="../intern/">Estagiários</a></li>
                         <li><a href="#">Núcleo dos estudantes</a></li>
                     </ul>
@@ -98,78 +106,45 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>EDITAL PARA OS EXAMES DE ADMISSÃO PARA O ANO LECTIVO 2023</h1>
-            <p>
-                Torna-se público que irão decorrer de 14 a 16 de Dezembro de 2022,
-                em época única e numa só chamada, os Exames de Admissão para o ano 
-                lectivo de 2023.
-            </p>
-            <h2>Quem pode candidatar-se?</h2>
-            <p>
-                Poderão candidatar-se às provas de Exames de Admissão, os indivíduos que 
-                preencham os seguintes requisitos:
-            </p>
-            <ul>
-                <li>
-                    Graduados do Ensino Secundário Geral que tenham concluído a 12ª classe 
-                    do Sistema Nacional de Educação (SNE);
-                </li>
-                <li>
-                    Graduados habilitados com nível equivalente à 12ª classe do SNE, para 
-                    continuação dos estudos.
-                </li>
-            </ul>
-            <h2>Processo de Candidaturas</h2>
-            <p>Os candidatos deverão concorrer a 1 (um) curso.</p>
-            <p>
-                É da inteira responsabilidade do candidato a escolha da opção do curso bem como o 
-                preenchimento correcto dos dados de inscrição.
-            </p> 
-            <p>
-                A validação do processo de candidatura torna-se efectiva com a realização do 
-                pré-registo e validação do pagamento, devendo ser usados para efeitos de pré-registo online.
-           </p>
-           <h2>Cuidados a ter durante a inscrição</h2>
-           <p>
-               Poderão candidatar-se às provas de Exames de Admissão, os indivíduos que 
-               preencham os seguintes requisitos:
-           </p>
-           <ol>
-               <li>
-                    Leia todo o edital antes de efectuar a inscrição online.
-               </li>
-               <li>
-                    Não introduza dados falsos durante a inscrição.
-               </li>
-               <li>
-                    Não tente efectuar dupla inscrição no sistema, pois poderá ter a sua inscrição cancelada.
-               </li>
-               <li>
-                    Pode alterar os seus dados antes da confirmação bancária, contudo, após a confirmação, pode 
-                    apenas enviar um pedido de cancelamento de inscrição (via email).
-               </li>
-               <li>
-                    Anote os seus dados de acesso (username e senha) pois deverá usá-los para entrar no sistema.
-               </li>
-               <li>
-                    Pode usar o seu código de candidato como username (utilizador) para entrar no sistema.
-               </li>
-               <li>
-                    Introduza o seu número de celular e email válido, pois será usado para o contactar, caso seja necessário.
-               </li>
-               <li>
-                    Inscreva-se em apenas um dos sites alternativos.
-               </li>
-           </ol>
-           
+        <section id="hackaton" class="hackaton">
+            <div class="img">
+                <img src="../../assets/img/slideshow/slideshow-2.jpeg" alt="" />
+            </div>
+            <div class="text">
+                Estudantes da Faculdade de Ciências e Tecnologia na India
+                entre os dias 22 à 25 de Novembro de 2022, 10 estudantes da 
+                Universidade Joaquim Chissano (UJC) participaram na UNESCO 
+                India-África Hackaton que teve lugar na Universidade Gautam 
+                Buddha, em Uttar Pradesh, Índia. Este evento tem como objectivo 
+                reunir estudantes universitários de países de África para debater, 
+                encontrar soluções, trocar ideias e experiências, bem como resolver 
+                problemas relacionados com saúde, água, terra e tecnologias.
+            </div>
         </section>
-        <aside>
-            <h4 style="margin: 30px; text-align: center; width: 80%; font-size: large; border-bottom-style: solid; border-width: thin; padding-bottom: 15px;">
-                Links úteis
-            </h4>
-            <a class="link" href="../admission-results/">Resultados dos exames de admissão 2023</a>
-        </aside>
+        <section id="e-just" class="e-just">
+            <div class="img">
+                <img src="../../assets/img/slideshow/slideshow-3.jpeg" alt="" />
+            </div>
+            <div class="text">
+                O Reitor da Universidade Joaquim Chissano (UJC), Prof. Doutor José Mário Magode 
+                acompanhado pela Vice-reitora para área Administrativa, Prof. Doutora Ana Nhampule 
+                visitou, no mês de Outubro de 2022 à Egypt-Japan University of Science and  echnology 
+                (E-JUST). A visita enquadrada no plano de cooperação académica da UJC com outras 
+                universidades, tinha como objectivos colher experiências da E-JUST em matérias 
+                relacionadas com as TIC, governação e gestão universitária bem como o estabelecimento 
+                de parceria com vista ao desenvolvimento institucional da Faculdade de Ciências e Tecnologias.<br>
+                Ainda no âmbito da visita, no dia 12 de Outubro foi assinado um Memorando de Entendimento 
+                Entre a UJC e E-JUST, representadas pelo Magnifico Reitor e Presidente, respectivamente. 
+                A luz do documento rubricado, as duas instituições irão cooperar nas áreas de pesquisa 
+                básica e aplicada e transferência de tecnologia, publicação de resultados de pesquisas 
+                e outras, troca de convites académicos, para além de intercâmbio de docentes e funcionários 
+                administrativos para capacitação. Segundo o Director da Faculdade de Ciências e Tecnologia, 
+                Prof. Doutor Hilário Langa, e o Chefe de Departamento de Tecnologia de Informação e Comunicação 
+                e Biblioteca da mesma faculdade, Cláudio Duvane, a deslocação serviu para colher experiências 
+                em áreas relacionadas com desenvolvimento curricular, metodologias de ensino e aprendizagem, 
+                bem como a mobilização de recursos financeiros e outros para o desenvolvimento institucional.
+            </div>
+        </section>
     </main>
     <footer>
         <div class="social-media">
@@ -200,7 +175,7 @@
         <div class="links">
             <h3>LINKS RÁPIDOS</h3>
             <div>
-                <a class="link" href="./">Exames de admissão</a>
+                <a class="link" href="../admission/">Exames de admissão</a>
             </div>
             <span>
                 <a class="link" href="../calendar/">Calendário académico</a>
