@@ -69,6 +69,49 @@
         background-color: #0F4C5C;
     }
 
+    .mySlides {
+        position: relative;
+    }
+
+    .image-text {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .text {
+        color: white;
+        width: 60%;
+        margin-top: 200px;
+        margin-left: 200px;
+        padding: 1px;
+    }
+    .text h1 {
+        font-size: 3rem;
+    }
+    .link {
+        background-color: #219ebc;
+        padding: 10px 20px;
+        border-radius: 10px;
+        position: relative;
+        top: 20px;
+    }
+    .link a {
+        color: white;
+        text-decoration: none;
+    }
+    .link a:visited {
+        color: white;
+        text-decoration: none;
+    }
+    .news-link {
+        color: #219ebc;
+    }
+    .news-link {
+        color: #219ebc;
+    }
     /* animacao fade*/
     .fade {
         animation-name: fade;
@@ -83,23 +126,6 @@
         to {
             opacity: 1
         }
-    }
-    #admission {
-        background-color: #219ebc;
-        margin: 30px 0;
-        padding: 30px;
-        font-size: larger;
-    }
-    #admission a {
-        color: white;
-        text-decoration: none;
-    }
-    #admission a:hover {
-        color: lightgray;
-    }
-    #admission a:visited {
-        color: white;
-        text-decoration: none;
     }
     main > div {
         position: relative;
@@ -279,6 +305,49 @@
 
     .dot:hover {
         background-color: #0F4C5C;
+    }
+    .mySlides {
+        position: relative;
+    }
+
+    .image-text {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .text {
+        color: white;
+        width: 60%;
+        margin-top: 200px;
+        margin-left: 200px;
+        padding: 1px;
+    }
+    .text h1 {
+        font-size: 3rem;
+    }
+    .link {
+        background-color: #219ebc;
+        padding: 10px 20px;
+        border-radius: 10px;
+        position: relative;
+        top: 20px;
+    }
+    .link a {
+        color: white;
+        text-decoration: none;
+    }
+    .link a:visited {
+        color: white;
+        text-decoration: none;
+    }
+    .news-link {
+        color: #219ebc;
+    }
+    .news-link {
+        color: #219ebc;
     }
 
     /* animacao fade*/
