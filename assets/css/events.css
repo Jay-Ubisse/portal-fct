@@ -43,6 +43,23 @@
         background-color: rgba(33, 158, 188, 1);
         color: #FFFFFF;
     }
+    main > aside > h2 {
+        width: fit-content;
+        margin: 20px auto;
+    }
+    main > aside > ul {
+        width: 70%;
+        margin: 10px auto;
+        list-style-type: none;
+    }
+    main > aside > ul a {
+        text-decoration: none;
+        color: white;
+    }
+    main > aside > ul a:visited {
+        text-decoration: none;
+        color: white;
+    }
     h1, h2 {
         margin: 20px;
     }
