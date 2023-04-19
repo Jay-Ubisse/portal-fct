@@ -1,189 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticias - Portal FCT </title>
-    <link rel="stylesheet" href="./../../assets/css/global.css">
-    <link rel="stylesheet" href="./../../assets/css/admission-results.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noticias - Portal FCT</title>
+    <link rel="stylesheet" href="./../../assets/css/global.css" />
+    <link rel="stylesheet" href="./../../assets/css/admission-results.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <script src="../../assets/js/jquery-3.6.0.js"></script>
     <script src="../../assets/js/global.js"></script>
     <style>
-        .img {
-            width: 40%;
-            float: left;
-            margin-right: 20px;
-        }
-        .img img {
-            width: 100%;
-        }
-        .hackaton, .e-just {
-            min-height: 250px;
-        }
-        .link {
-            color: white;
-            text-decoration: none;
-        }
-        .link:visited {
-            color: white;
-            text-decoration: none;
-        }
+      .img {
+        width: 40%;
+        float: left;
+        margin-right: 20px;
+      }
+      .img img {
+        width: 100%;
+      }
+      .hackaton,
+      .e-just {
+        min-height: 250px;
+      }
+      .link {
+        color: white;
+        text-decoration: none;
+      }
+      .link:visited {
+        color: white;
+        text-decoration: none;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <section id="logo">
-            <img src="./../../assets/img/logo.png">
-            <p>Faculdade de Ciências e Tecnologia</p>
-        </section>
-        <section id="search-and-media">
-            <div id="social-media-header">
-                <div class="social-media-redes-top"><a href="https://www.facebook.com/ujc.fct" target="_blank"><i class="fa-brands fa-facebook" style="color: white;"></i></a></div>
-                <div class="social-media-redes-top"><a href="#" target="_blank"><i class="fa-brands fa-twitter" style="color: white;"></i></a></div>
-                <div class="social-media-redes-top"><a href="#" target="_blank"><i class="fa-brands fa-linkedin" style="color: white;"></i></a></div>
-                <div class="social-media-redes-top"><a href="#" target="_blank"><i class="fa-brands fa-youtube" style="color: white;"></i></a></div>
-            </div>
-            <div id="search">
-                <input type="search" name="search" placeholder="pesquisar">
-                <i class="fa-solid fa-magnifying-glass" style="color: #FFFFFF; z-index: 1;"></i>
-            </div>
-        </section>
-        <nav>
-            <div id="menu-icon"><i class="fa-solid fa-bars fa-2x"></i></div>
-            <ul id="nav">
-                <li><a href="./../../">Pagina Inicial</a></li>
-                <li class="dropdown">
-                    <a href="#">Sobre nós</a><i class="fa-solid fa-caret-down"></i>
-                    <ul>
-                        <li>Quem somos?</li>
-                        <li><a href="#about">Missão, Visão e Valores</a></li>
-                        <li><a href="../chart/">Estrutura orgânica</a></li>
-                        <li><a href="./../regulation/">Regulamento</a></li>
-                        <li><a href="../standards/">Normas e Regulamentos</a></li>
-                        <li><a href="./../contact/">Contacto</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Cursos</a><i class="fa-solid fa-caret-down"></i>
-                    <ul>
-                        <li class="dropdown">
-                            <a href="#">Licenciatura</a><i class="fa-solid fa-caret-right"></i>
-                            <ul class="submenu">
-                                <li><a href="../graduation-course/">Engenharia em Tecnologias e Sistemas de Informação</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="../short-duration-curses/">Curta duração</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Investigação</a><i class="fa-solid fa-caret-down"></i>
-                    <ul>
-                        <li><a href="#">Trabalhos Científicos</a></li>
-                        <li><a href="#">Projectos desenvolvidos</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Estudantes</a><i class="fa-solid fa-caret-down"></i>
-                    <ul>
-                        <li><a href="../admission/">Admissão</a></li>
-                        <li><a href="../intern/">Estagiários</a></li>
-                        <li><a href="#">Núcleo dos estudantes</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="../events/">Eventos</a></li>
-                <li class="dropdown">
-                    <a href="#">Repositório</a><i class="fa-solid fa-caret-down"></i>
-                    <ul>
-                        <li><a href="#">Calendário de defesas</a></li>
-                        <li><a href="#">Trabalhos de conclusão do curso</a></li>
-                        <li><a href="#">Monografias</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+      <!-- header added using ajax -->
     </header>
+    <nav>
+      <!-- Nav added using ajax -->
+    </nav>
     <main>
-        <section id="hackaton" class="hackaton">
-            <div class="img">
-                <img src="../../assets/img/slideshow/slideshow-2.jpeg" alt="" />
-            </div>
-            <div class="text">
-                Estudantes da Faculdade de Ciências e Tecnologia na India
-                entre os dias 22 à 25 de Novembro de 2022, 10 estudantes da 
-                Universidade Joaquim Chissano (UJC) participaram na UNESCO 
-                India-África Hackaton que teve lugar na Universidade Gautam 
-                Buddha, em Uttar Pradesh, Índia. Este evento tem como objectivo 
-                reunir estudantes universitários de países de África para debater, 
-                encontrar soluções, trocar ideias e experiências, bem como resolver 
-                problemas relacionados com saúde, água, terra e tecnologias.
-            </div>
-        </section>
-        <section id="e-just" class="e-just">
-            <div class="img">
-                <img src="../../assets/img/slideshow/slideshow-3.jpeg" alt="" />
-            </div>
-            <div class="text">
-                O Reitor da Universidade Joaquim Chissano (UJC), Prof. Doutor José Mário Magode 
-                acompanhado pela Vice-reitora para área Administrativa, Prof. Doutora Ana Nhampule 
-                visitou, no mês de Outubro de 2022 à Egypt-Japan University of Science and  echnology 
-                (E-JUST). A visita enquadrada no plano de cooperação académica da UJC com outras 
-                universidades, tinha como objectivos colher experiências da E-JUST em matérias 
-                relacionadas com as TIC, governação e gestão universitária bem como o estabelecimento 
-                de parceria com vista ao desenvolvimento institucional da Faculdade de Ciências e Tecnologias.<br>
-                Ainda no âmbito da visita, no dia 12 de Outubro foi assinado um Memorando de Entendimento 
-                Entre a UJC e E-JUST, representadas pelo Magnifico Reitor e Presidente, respectivamente. 
-                A luz do documento rubricado, as duas instituições irão cooperar nas áreas de pesquisa 
-                básica e aplicada e transferência de tecnologia, publicação de resultados de pesquisas 
-                e outras, troca de convites académicos, para além de intercâmbio de docentes e funcionários 
-                administrativos para capacitação. Segundo o Director da Faculdade de Ciências e Tecnologia, 
-                Prof. Doutor Hilário Langa, e o Chefe de Departamento de Tecnologia de Informação e Comunicação 
-                e Biblioteca da mesma faculdade, Cláudio Duvane, a deslocação serviu para colher experiências 
-                em áreas relacionadas com desenvolvimento curricular, metodologias de ensino e aprendizagem, 
-                bem como a mobilização de recursos financeiros e outros para o desenvolvimento institucional.
-            </div>
-        </section>
+      <section id="hackaton" class="hackaton">
+        <div class="img">
+          <img src="../../assets/img/slideshow/slideshow-2.jpeg" alt="" />
+        </div>
+        <div class="text">
+          Estudantes da Faculdade de Ciências e Tecnologia na India entre os
+          dias 22 à 25 de Novembro de 2022, 10 estudantes da Universidade
+          Joaquim Chissano (UJC) participaram na UNESCO India-África Hackaton
+          que teve lugar na Universidade Gautam Buddha, em Uttar Pradesh, Índia.
+          Este evento tem como objectivo reunir estudantes universitários de
+          países de África para debater, encontrar soluções, trocar ideias e
+          experiências, bem como resolver problemas relacionados com saúde,
+          água, terra e tecnologias.
+        </div>
+      </section>
+      <section id="e-just" class="e-just">
+        <div class="img">
+          <img src="../../assets/img/slideshow/slideshow-3.jpeg" alt="" />
+        </div>
+        <div class="text">
+          O Reitor da Universidade Joaquim Chissano (UJC), Prof. Doutor José
+          Mário Magode acompanhado pela Vice-reitora para área Administrativa,
+          Prof. Doutora Ana Nhampule visitou, no mês de Outubro de 2022 à
+          Egypt-Japan University of Science and echnology (E-JUST). A visita
+          enquadrada no plano de cooperação académica da UJC com outras
+          universidades, tinha como objectivos colher experiências da E-JUST em
+          matérias relacionadas com as TIC, governação e gestão universitária
+          bem como o estabelecimento de parceria com vista ao desenvolvimento
+          institucional da Faculdade de Ciências e Tecnologias.<br />
+          Ainda no âmbito da visita, no dia 12 de Outubro foi assinado um
+          Memorando de Entendimento Entre a UJC e E-JUST, representadas pelo
+          Magnifico Reitor e Presidente, respectivamente. A luz do documento
+          rubricado, as duas instituições irão cooperar nas áreas de pesquisa
+          básica e aplicada e transferência de tecnologia, publicação de
+          resultados de pesquisas e outras, troca de convites académicos, para
+          além de intercâmbio de docentes e funcionários administrativos para
+          capacitação. Segundo o Director da Faculdade de Ciências e Tecnologia,
+          Prof. Doutor Hilário Langa, e o Chefe de Departamento de Tecnologia de
+          Informação e Comunicação e Biblioteca da mesma faculdade, Cláudio
+          Duvane, a deslocação serviu para colher experiências em áreas
+          relacionadas com desenvolvimento curricular, metodologias de ensino e
+          aprendizagem, bem como a mobilização de recursos financeiros e outros
+          para o desenvolvimento institucional.
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="social-media">
-            <h2>Connecte-se connosco</h2>
-            <div class="social-media-icons"><a href="https://www.facebook.com/ujc.fct" target="_blank"><i class="fa-brands fa-facebook" style="color: white;"></i></a></div>
-            <div class="social-media-icons"><a href="#" target="_blank"><i class="fa-brands fa-twitter" style="color: white;"></i></a></div>
-            <div class="social-media-icons"><a href="#" target="_blank"><i class="fa-brands fa-linkedin" style="color: white;"></i></a></div>
-            <div class="social-media-icons"><a href="#" target="_blank"><i class="fa-brands fa-youtube" style="color: white;"></i></a></div>
-        </div>
-        <div class="about-section" id="about">
-            <div class="mission">
-                <h3>Missão</h3>
-                <p>
-                    Prover um serviço público para a formação de cidadãos de nível
-                    superior de qualidade através da pesquisa, ensino e extensão com
-                    competências e conhecimento nos domínios de ciências e tecnologia.
-                </p>
-            </div>
-            <div class="vision">
-                <h3>Visão</h3>
-                <p>
-                    Ser uma faculdade de referência nacional, regional e internacional
-                    na promoção de excelência no ensino superior, investigação e inovação
-                    nas áreas de ciências e tecnologia.
-                </p>
-            </div>
-        </div>
-        <div class="links">
-            <h3>LINKS RÁPIDOS</h3>
-            <div>
-                <a class="link" href="../admission/">Exames de admissão</a>
-            </div>
-            <span>
-                <a class="link" href="../calendar/">Calendário académico</a>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>&copy;&nbsp;2022.Todos os direitos reservados</p>
-        </div>
+      <!-- Footer added using ajax-->
     </footer>
-</body>
+
+    <script src="../../assets/js/jquery-3.6.0.js"></script>
+    <script src="../../assets/js/global.js"></script>
+  </body>
 </html>
