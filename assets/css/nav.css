@@ -11,15 +11,15 @@
     }
     nav > ul {
         margin-top:-70px;
-        padding: 6px 10px;
+        padding: 6px 5px;
         color: #FFFFFF;
-        font-size: medium;
+        font-size: small;
         background-color: #219ebc;
         font-weight: 500;
         display: flex;
         list-style-type: none;
         justify-content: space-between;
-        width: 70%;
+        width: 80%;
         height: 100%;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;

@@ -666,8 +666,16 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .mt-2 {
@@ -1773,11 +1781,6 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .bg-\[\#0F4C5C\] {
   --tw-bg-opacity: 1;
   background-color: rgb(15 76 92 / var(--tw-bg-opacity));
@@ -1795,6 +1798,11 @@ video {
 
 .bg-black\/50 {
   background-color: rgb(0 0 0 / 0.5);
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -1958,10 +1966,6 @@ video {
 
 .pt-3 {
   padding-top: 0.75rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .pt-5 {
@@ -2519,6 +2523,10 @@ video {
     width: 100%;
   }
 
+  .mobile\:w-\[95\%\] {
+    width: 95%;
+  }
+
   .mobile\:flex-row {
     flex-direction: row;
   }
@@ -2555,16 +2563,6 @@ video {
     padding: 1.5rem;
   }
 
-  .mobile\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .mobile\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .mobile\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -2572,6 +2570,16 @@ video {
 
   .mobile\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .mobile\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .mobile\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
@@ -2627,6 +2635,10 @@ video {
     width: fit-content;
   }
 
+  .laptop\:w-\[80\%\] {
+    width: 80%;
+  }
+
   .laptop\:flex-row {
     flex-direction: row;
   }
@@ -2639,16 +2651,16 @@ video {
     justify-content: flex-end;
   }
 
+  .laptop\:gap-3 {
+    gap: 0.75rem;
+  }
+
   .laptop\:gap-5 {
     gap: 1.25rem;
   }
 
   .laptop\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .laptop\:gap-3 {
-    gap: 0.75rem;
   }
 
   .laptop\:border-l {
@@ -2667,6 +2679,11 @@ video {
     padding: 2rem;
   }
 
+  .laptop\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .laptop\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2680,10 +2697,5 @@ video {
   .laptop\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .laptop\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
