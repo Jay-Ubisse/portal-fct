@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Inicial - Portal FCT</title>
     <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/nav.css" />
     <link rel="stylesheet" href="./assets/css/home.css" />
     <link
       rel="stylesheet"
@@ -21,6 +22,7 @@
         text-decoration: none;
       }
     </style>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
   </head>
   <body>
     <header>
@@ -35,46 +37,43 @@
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="./assets/img/slideshow/slideshow-2.jpeg" />
-            <div class="image-text">
-              <div class="text">
-                <h1>
+            <div class="absolute top-0 w-full h-full bg-black/50">
+              <div class="text-white laptop:w-2/5 mobile:w-4/5 p-1 laptop:mt-[200px] mobile:mt-[20px] laptop:ml-[200px] mobile:ml-[50px]">
+                <h1 class="font-bold laptop:text-3xl mobile:text-xl laptop:mb-4 mobile:mb-2">
                   Estudantes da Faculdade de Ciências e Tecnologia na Índia.
                 </h1>
-                <span class="link">
-                  <a href="./pages/news/index.html#hackaton"
-                    >Clique aqui para ler mais</a
-                  >
+                <span class="bg-[#219ebc] py-2 px-5 relative top-5 text-white rounded-md">
+                  <a href="./pages/news/index.html#hackaton"></a>
+                    Clique aqui para ler mais
+                  </a>
                 </span>
               </div>
             </div>
           </div>
           <div class="mySlides hide fade">
             <div class="numbertext">2 / 3</div>
-            <img src="./assets/img/slideshow/slideshow-3.jpeg" />
-            <div class="image-text">
-              <div class="text">
-                <h1>
-                  Magnífico Reitor da UJC visita Egypt-Japan University of
-                  Science and echnology (E-JUST).
-                </h1>
-                <span class="link">
-                  <a href="./pages/news/index.html#e-just"
-                    >Clique aqui para ler mais</a
-                  >
+            <img src="./assets/img/slideshow/recepcao-novos-ingressos.jpeg" />
+            <div class="absolute top-0 w-full h-full bg-black/50">
+              <div class="text-white laptop:w-2/5 mobile:w-4/5 p-1 laptop:mt-[200px] mobile:mt-[20px] laptop:ml-[200px] mobile:ml-[50px]">
+                <h1 class="font-bold laptop:text-3xl mobile:text-xl laptop:mb-4 mobile:mb-2">Recepção de novos ingressos 2023</h1>
+                <span class="bg-[#219ebc] py-2 px-5 relative top-5 text-white rounded-md">
+                  <a href="./pages/news/index.html#new-students"></a>
+                    Clique aqui para ler mais
+                  </a>
                 </span>
               </div>
             </div>
           </div>
           <div class="mySlides hide fade">
             <div class="numbertext">3 / 3</div>
-            <img src="./assets/img/slideshow/slideshow-1.jpeg" />
-            <div class="image-text">
-              <div class="text">
-                <h1>Resultados dos exames de admissão disponíveis.</h1>
-                <span class="link">
-                  <a href="./pages/admission-results/"
-                    >Clique aqui para ver os resultados.</a
-                  >
+            <img src="./assets/img/slideshow/aulas-de-sapiencia.jpeg" />
+            <div class="absolute top-0 w-full h-full bg-black/50">
+              <div class="text-white p-1 laptop:w-2/5 mobile:w-4/5 laptop:mt-[200px] mobile:mt-[20px] laptop:ml-[200px] mobile:ml-[50px]">
+                <h1 class="font-bold laptop:text-3xl mobile:text-xl laptop:mb-4 mobile:mb-2">TIC’s no Epicentro da Aula de Sapiência</h1>
+                <span class="bg-[#219ebc] py-2 px-5 relative top-5 text-white rounded-md">
+                  <a href="./pages/news/index.html#wisdom-class">
+                    Clique aqui para ler mais
+                  </a>
                 </span>
               </div>
             </div>
@@ -126,27 +125,17 @@
         </section>
         <aside id="events">
           <h2 class="section-name">
-            EVENTOS
-            <span class="show-all"
-              ><a href="./pages/events/">Todos os eventos</a></span
-            >
+            LINKS ÚTEIS
           </h2>
-          <section>
-            <div class="date">
-              <p>15<br />16<br />SET</p>
-            </div>
-            <div class="info">
-              <p>Workshop sobre Reforma e Desenvolvimento Curricular da FCT.</p>
-            </div>
-          </section>
+          <ul>
+            <li><a href=""></a></li>
+          </ul>
         </aside>
       </div>
     </main>
     <footer>
       <!-- Footer added using ajax-->
     </footer>
-
-    <script src="./assets/js/jquery-3.6.0.js"></script>
     <script src="./assets/js/jquery-ui.js"></script>
     <script src="./assets/js/index.js"></script>
   </body>

@@ -73,24 +73,6 @@
         position: relative;
     }
 
-    .image-text {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-
-    .text {
-        color: white;
-        width: 60%;
-        margin-top: 200px;
-        margin-left: 200px;
-        padding: 1px;
-    }
-    .text h1 {
-        font-size: 3rem;
-    }
     .link {
         background-color: #219ebc;
         padding: 10px 20px;
@@ -240,7 +222,7 @@
     .slideshow-container {
         position: relative;
         width: 100%;
-        margin-top: 110px;
+        margin-top: 10px;
     }
     .slideshow-container img {
         width: 100%;
@@ -308,40 +290,6 @@
     }
     .mySlides {
         position: relative;
-    }
-
-    .image-text {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-
-    .text {
-        color: white;
-        width: 60%;
-        margin-top: 200px;
-        margin-left: 200px;
-        padding: 1px;
-    }
-    .text h1 {
-        font-size: 3rem;
-    }
-    .link {
-        background-color: #219ebc;
-        padding: 10px 20px;
-        border-radius: 10px;
-        position: relative;
-        top: 20px;
-    }
-    .link a {
-        color: white;
-        text-decoration: none;
-    }
-    .link a:visited {
-        color: white;
-        text-decoration: none;
     }
     .news-link {
         color: #219ebc;

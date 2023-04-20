@@ -1,7 +1,7 @@
 //carregamento do header, nav e footer
-$("header").load("./pages/components/header.html");
-$("nav").load("./pages/components/nav.html");
-$("footer").load("./pages/components/footer.html");
+$("header").load("./components/header.html");
+$("nav").load("./components/nav.html");
+$("footer").load("./components/footer.html");
 
 
 /* Animacao da seccao noticias */
@@ -64,3 +64,4 @@ if ($(window).width() < 768) {
     $(".submenu").show();
 
 }
+
