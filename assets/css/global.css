@@ -2519,12 +2519,12 @@ video {
     width: 80%;
   }
 
-  .mobile\:w-full {
-    width: 100%;
-  }
-
   .mobile\:w-\[95\%\] {
     width: 95%;
+  }
+
+  .mobile\:w-full {
+    width: 100%;
   }
 
   .mobile\:flex-row {
@@ -2630,13 +2630,13 @@ video {
     width: 70%;
   }
 
+  .laptop\:w-\[80\%\] {
+    width: 80%;
+  }
+
   .laptop\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
-  }
-
-  .laptop\:w-\[80\%\] {
-    width: 80%;
   }
 
   .laptop\:flex-row {
@@ -2696,6 +2696,11 @@ video {
 
   .laptop\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .laptop\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
