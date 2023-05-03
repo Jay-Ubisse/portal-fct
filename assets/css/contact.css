@@ -3,6 +3,7 @@
         position: relative;
         margin-top: 20px;
         min-height: 100vh;
+        margin-right: 20px;
     }
     main > section {
         width: 70%;

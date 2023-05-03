@@ -12,6 +12,30 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+
+    <style>
+      .info-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .info-item i {
+        width: 30px;
+        
+      }
+
+      .info-item p {
+        margin-left: 10px;
+        width: calc(100% - 40px);
+      }
+
+      #map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+
   </head>
 
   <body>
@@ -23,50 +47,31 @@
     </nav>
     <main>
       <section>
-        <h1 style="width: fit-content; margin: 20px auto">Nossos contactos</h1>
-        <p class="email">Email: <a href="fct@ujc.ac.mz">fct@ujc.ac.mz</a></p>
-        <div
-          class="social-media"
-          style="
-            border-style: solid none;
-            margin: 20px auto 0 auto;
-            width: 60%;
-            padding: 10px 0;
-            align-items: center;
-            justify-content: center;
-            border-color: #000000;
-          "
-        >
-          <p>Redes sociais</p>
-          <div class="social-media-icons">
-            <i class="fa-brands fa-facebook"></i>
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>Email: <a href="secretariageral@ujc.ac.mz">secretariageral@ujc.ac.mz</a></p>
           </div>
-          <div class="social-media-icons">
-            <i class="fa-brands fa-twitter"></i>
+
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>Email: <a href="fct@ujc.ac.mz">fct@ujc.ac.mz</a></p>
           </div>
-          <div class="social-media-icons">
-            <i class="fa-brands fa-linkedin"></i>
+
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>Telefone: <a href="+258823032129">+258 823032129</a></p>
           </div>
-          <div class="social-media-icons">
-            <i class="fa-brands fa-youtube"></i>
+
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Endereço: Campus do Zimpeto, Rua do Grande Maputo, Q.88, Bairro de Zimpeto, Cidade de Maputo</p>
           </div>
         </div>
-        <h1 style="text-align: center">Mapa</h1>
-        <div
-          id="map"
-          style="
-            height: 400px;
-            width: 100%;
-            background-color: lightgray;
-            margin: 20px auto 0 auto;
-            width: 60%;
-            padding: 10px 0;
-            align-items: center;
-            justify-content: center;
-            border-color: #000000;
-          "
-        ></div>
+
+        <div id="map"></div>
       </section>
+
       <aside>
         <h4
           style="
@@ -83,6 +88,13 @@
         </h4>
       </aside>
     </main>
+
+    <footer>
+      <!-- Footer added using ajax-->
+    </footer>
+
+
+    </main>
     <footer>
       <!-- Footer added using ajax-->
     </footer>
@@ -94,5 +106,7 @@
     <script src="../../assets/js/jquery-3.6.0.js"></script>
     <script src="../../assets/js/global.js"></script>
     <script type="module" src="../../assets/js/contact.js"></script>
+
+
   </body>
 </html>

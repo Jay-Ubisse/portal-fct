@@ -1,0 +1,80 @@
+@media (min-width: 1024px) {
+    main {
+        position: relative;
+        margin-top: 70px;
+        min-height: 100vh;
+    }
+    main > section {
+        
+        width: 90%;
+        margin: auto;
+        border-radius: 25px;
+        min-height: fit-content;
+        background-color: rgba(33, 158, 188, 1);
+        color: #FFFFFF;
+        padding: 40px;
+    }
+    main > aside {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 25%;
+        margin: 0 25px;
+        padding: 20px;
+        border-radius: 25px;
+        min-height: 600px;
+        background-color: rgba(33, 158, 188, 1);;
+        color: #FFFFFF;
+    }
+    section > h1, aside > h1 {
+        width: fit-content;
+        margin: 20px auto;
+    }
+    section li {
+        margin: 5px;
+        margin-left: 60px;
+    }
+    section p {
+        margin: 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+    main {
+        margin-top: 110px;
+    }
+    main > section {
+        width: 90%;
+        margin: 12px auto;
+        border-radius: 25px;
+        min-height: fit-content;
+        background-color: rgba(33, 158, 188, 1);
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    main > aside {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 25%;
+        margin: 0 25px;
+        padding: 20px;
+        border-radius: 25px;
+        min-height: 600px;
+        background-color: rgba(33, 158, 188, 1);;
+        color: #FFFFFF;
+    }
+    section > h1, aside > h1 {
+        width: fit-content;
+        margin: 20px auto;
+    }
+    section li {
+        margin: 5px;
+        margin-left: 60px;
+    }
+    section p {
+        margin: 10px;
+    }
+}
+
+
